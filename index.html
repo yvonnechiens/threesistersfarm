@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="_base.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pys3nik.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Three Sisters Farm</title>
+  </head>
+  <body>
+
+<nav>
+  <img src="img/icons/close.svg" alt="close icon" class="close"  />
+    <ul>
+      <li id="shop">
+        <img src="img/icons/arrow-right.svg" alt="arrow icon"/> Shop
+      </li>
+      <li id="about-us">
+        <img src="img/icons/arrow-right.svg" alt="arrow icon"/> About Us
+      </li>
+      <li id="contact">
+        <img src="img/icons/arrow-right.svg" alt="arrow icon"/> Contact
+      </li>
+    </ul>
+</nav>
+
+
+
+<!-- ABOUT US CARD -->
+
+<section class="menu-detail" id="about-us">
+  <img src="img/icons/close.svg" alt="close icon" class="close"  />
+
+
+  <div>
+  <p>We're a small team of–you guessed it–three sisters, passionate about improving the quality of life for cats. We work to make it easy for cat owners to provide their cats food that's exactly what their bodies need.</p>
+  <p>We source all our ingredients from family farms with strict animal welfare standards, free from antibiotics.</p>
+  <button>Learn More</button>
+  </div>
+</section>
+
+<!-- CONTACT CARD -->
+
+<section class="menu-detail" id="contact">
+  <img src="img/icons/close.svg" alt="close icon" class="close"  />
+  <div>
+  <h2>Send us a message</h2>
+  <input type="text" placeholder="Your name"/>
+  <input type="text" placeholder="Your email"/>
+  <h3>Your message</h3>
+  <textarea name="message" rows="10" cols="30">
+</textarea>
+  <button>Send</button>
+  </div>
+</section>
+
+<div class="body-opacity">
+  </div>
+
+
+<!-- HEADER -->
+
+<header>
+
+  <div class="menu">
+    <img src="img/icons/menu.svg" alt="menu icon" />
+    <h3> Menu</h3>
+  </div>
+
+  <div class="logo"><a href="">
+    <img src="img/logo/TSF_logo.svg" class="default"/>
+    <img src="img/logo/TSF_logo_small.svg" class="small"/></a>
+  </div>
+
+  <div class="cart">
+    <img src="img/icons/cart.svg" alt="cart icon"  />
+    <h3> Cart</h3>
+  </div>
+
+</header>
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+  <div class="heroimage">
+    <div class="heroimagecover"></div>
+  </div>
+  <div class="herocontainer">
+    <h1>The nutrition they deserve</h1>
+    <p>Every Three Sisters Farm recipe is designed to give your pet exactly what they need and nothing more.</p>
+    <p>We’re committed to raising the bar on the way we feed our pets, with even stricter quality than what we feed ourselves.</p>
+
+    <a href="#products"><button>Shop</button></a>
+  </div>
+
+</section>
+
+
+<!-- SHOP -->
+
+<section id="products" class="shop">
+  <h2>Shop</h2>
+  <div class="filter">
+    <ul>
+      <li class="active filter-all" data-filter="all"><img src="img/icons/arrow-right.svg" alt="arrow icon" class="filterarrow"/> <h4>All</h4></li>
+      <li class="filter-wetfood" data-filter="wet-food"><img src="img/icons/arrow-right.svg" alt="arrow icon" class="filterarrow"/> <h4>Wet Food</h4></li>
+      <li class="filter-treats" data-filter="treats"><img src="img/icons/arrow-right.svg" alt="arrow icon" class="filterarrow"/> <h4>Treats</h4></li>
+    </ul>
+  </div>
+
+  <div class="products">
+    <div class="product-item" data-type="wet-food" data-item="Chubby-Chicken-Recipe">
+      <img src="img/product/ProductShot/ChubbyChicken@0.1x.png" />
+      <h3>Chubby Chicken</h3>
+      <p>$32 / case of 12 cans (5.5 oz)</p>
+      <div class="quantity-picker">
+        <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+      </div>
+     <button class="addtocart">Add to Cart</button>
+    </div>
+
+    <div class="product-item" data-type="wet-food" data-item="Pudgy-Pork-Recipe">
+      <img src="img/product/ProductShot/PudgyPork@0.1x.png" />
+      <h3>Pudgy Pork</h3>
+      <p>$32 / case of 12 cans (5.5 oz)</p>
+      <div class="quantity-picker">
+        <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+      </div>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+
+    <div class="product-item" data-type="wet-food" data-item="Stocky-Salmon-Recipe">
+      <img src="img/product/ProductShot/StockySalmon@0.1x.png" />
+      <h3>Stocky Salmon</h3>
+      <p>$32 / case of 12 cans (5.5 oz)</p>
+      <div class="quantity-picker">
+        <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+      </div>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+
+    <div class="product-item" data-type="wet-food" data-item="Variety-Pack">
+      <img src="img/product/ProductShot/VarietyPack@0.1x.png" />
+      <h3>Variety Pack</h3>
+      <p>$60 / case of 24 cans (5.5 oz)</p>
+      <div class="quantity-picker">
+        <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+      </div>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+
+    <div class="product-item" data-type="treats" data-item="Tubby-Tuna-Treats">
+      <img src="img/product/ProductShot/TubbyTuna@0.1x.png" />
+      <h3>Tubby Tuna Treats</h3>
+      <p>$12 / jar (12 oz)</p>
+      <div class="quantity-picker">
+        <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+      </div>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+
+    <div class="product-item free-shipping" data-type="free-shipping">
+      <img src="img/illustrations/illustration-freeshipping.svg" />
+      <p><strong>Get free shipping on orders $30 or more!</strong></p>
+    </div>
+
+  </div>
+
+
+<hr />
+</section>
+
+
+<!-- DETAIL CARDS -->
+
+<img src="img/icons/close.svg" alt="close icon" class="detailcard-close"  />
+<section class="detail" data-item="Chubby-Chicken-Recipe">
+  <div class="detail-topsection">
+    <div class="detail-img">
+      <img src="img/product/ProductShot/ChubbyChicken@0.25x.png" alt="Chubby Chicken Recipe can"/>
+    </div>
+    <div class="detail-info">
+      <h2>Chubby Chicken Recipe</h2>
+      <h4>$32 / case of 12 (5.5 oz cans)</h4>
+      <p>Real deboned meat is always the first ingredient in this high protein recipe. Our chicken comes from 100% Certified Humane® farms where it’s raised without antibiotics.</p>
+      <p>It’s wet food done really right. Human grade ingredients with a cat’s palate in mind.</p>
+      <div class="detail-action">
+        <div class="quantity-picker">
+          <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="detail-bottomsection">
+    <h3>Ingredients</h3>
+    <p>
+      Deboned Chicken, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <h3>Feeding Guide</h3>
+    <p>
+      When fed alone to adults, feed 1 can per 5.5 lbs. of body weight per day, for kittens up to twice this amount and for pregnant or lactating mothers up to three times this amount. For combination feeding, reduce 1/4 cup dry for every 1/2 can wet.
+    </p>
+  </div>
+</section>
+
+<section class="detail" data-item="Pudgy-Pork-Recipe">
+  <div class="detail-topsection">
+    <div class="detail-img">
+      <img src="img/product/ProductShot/PudgyPork@0.25x.png" alt="Pudgy Pork Recipe can"/>
+    </div>
+    <div class="detail-info">
+      <h2>Pudgy Pork Recipe</h2>
+      <h4>$32 / case of 12 (5.5 oz cans)</h4>
+      <p>Real deboned meat is always the first ingredient in this high protein recipe. Our pork comes from 100% Certified Humane® farms where it’s raised without antibiotics.</p>
+      <p>It’s wet food done really right. Human grade ingredients with a cat’s palate in mind.</p>
+      <div class="detail-action">
+        <div class="quantity-picker">
+          <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="detail-bottomsection">
+    <h3>Ingredients</h3>
+    <p>
+      Deboned Pork, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <h3>Feeding Guide</h3>
+    <p>
+      When fed alone to adults, feed 1 can per 5.5 lbs. of body weight per day, for kittens up to twice this amount and for pregnant or lactating mothers up to three times this amount. For combination feeding, reduce 1/4 cup dry for every 1/2 can wet.
+    </p>
+  </div>
+</section>
+
+<section class="detail" data-item="Stocky-Salmon-Recipe">
+  <div class="detail-topsection">
+    <div class="detail-img">
+      <img src="img/product/ProductShot/StockySalmon@0.25x.png" alt="Stocky Salmon Recipe can"/>
+    </div>
+    <div class="detail-info">
+      <h2>Stocky Salmon Recipe</h2>
+      <h4>$32 / case of 12 (5.5 oz cans)</h4>
+      <p>Real deboned fish is always the first ingredient in this high protein recipe. Our wild-caught herring and mackerel meet strict sustainable fishing standards and are approved by Ocean Wise®.</p>
+      <p>It’s wet food done really right. Human grade ingredients with a cat’s palate in mind.</p>
+      <div class="detail-action">
+        <div class="quantity-picker">
+          <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="detail-bottomsection">
+    <h3>Ingredients</h3>
+    <p>
+      Deboned Salmon, Deboned Chicken, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <h3>Feeding Guide</h3>
+    <p>
+      When fed alone to adults, feed 1 can per 5.5 lbs. of body weight per day, for kittens up to twice this amount and for pregnant or lactating mothers up to three times this amount. For combination feeding, reduce 1/4 cup dry for every 1/2 can wet.
+    </p>
+  </div>
+</section>
+
+<section class="detail" data-item="Variety-Pack">
+  <div class="detail-topsection">
+    <div class="detail-img">
+      <img src="img/product/ProductShot/VarietyPack@0.25x.png" alt="Variety Pack"/>
+    </div>
+    <div class="detail-info">
+      <h2>Variety Pack</h2>
+      <h4>$60 / case of 24 cans (5.5 oz cans)</h4>
+      <p>Give the variety your cats crave with a variety pack that includes all three of our wet food flavors: Chubby Chicken, Stocky Salmon, and Pudgy Pork.</p>
+      <p>Real deboned meat is always the first ingredient in these high protein recipes. Our meat comes from 100% Certified Humane® farms where it’s raised without antibiotics.</p>
+      <div class="detail-action">
+        <div class="quantity-picker">
+          <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="detail-bottomsection">
+    <h3>Ingredients</h3>
+    <p>
+      <em>Chubby Chicken Recipe:</em> Deboned Chicken, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <p>
+      <em>Pudgy Pork Recipe:</em> Deboned Pork, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <p>
+      <em>Stocky Salmon Recipe:</em> Deboned Salmon, Deboned Chicken, Chicken Broth, Chicken Liver, Natural Flavor, Dried Egg Product, Dried Cranberries, Calcium Carbonate, Organic Dehydrated Alfalfa Meal, Sodium Phosphate, Guar Gum, Potassium Chloride, Salt, Choline Chloride, Salmon Oil, Agar-Agar, Ground Flaxseed, Locust Bean Gum, Xanthan Gum, Taurine, Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement), Yucca Schidigera Extract, Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide).
+    </p>
+    <h3>Feeding Guide</h3>
+    <p>
+      When fed alone to adults, feed 1 can per 5.5 lbs. of body weight per day, for kittens up to twice this amount and for pregnant or lactating mothers up to three times this amount. For combination feeding, reduce 1/4 cup dry for every 1/2 can wet.
+    </p>
+  </div>
+</section>
+
+
+<section class="detail" data-item="Tubby-Tuna-Treats">
+  <div class="detail-topsection">
+    <div class="detail-img">
+      <img src="img/product/ProductShot/TubbyTuna@0.25x.png" alt="Tubby Tuna Recipe can"/>
+    </div>
+    <div class="detail-info">
+      <h2>Tubby Tuna Recipe</h2>
+      <h4>$12 / jar (12 oz)</h4>
+      <p>Made with wild tuna and chickpeas, this healthy reward is totally free of GMO ingredients and all that other stuff you’d prefer to leave out of your cat’s diet.</p>
+      <p>They’re baked in small batches to ensure the utmost quality, which has the added bonus of locking in an exceptional aroma and flavor.</p>
+      <div class="detail-action">
+        <div class="quantity-picker">
+          <h3 class="less">-</h3> <h3 class="quantity">1</h3> <h3 class="more">+</h3>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="detail-bottomsection">
+    <h3>Ingredients</h3>
+    <p>
+      Tuna, Chicken, Chickpeas, Beet Molasses, Coconut Glycerin, Chicken Broth, Dried Cultured Skim Milk, Salt, Fish Oil, Ascorbic Acid, Mixed Tocopherols (a preservative).
+    </p>
+    <h3>Feeding Guide</h3>
+    <p>
+      Not designed to replace your cat's daily diet, but for supplemental feeding only. Be sure to serve with plenty of fresh water.
+    </p>
+  </div>
+</section>
+
+<!-- VALUES -->
+
+<section class="values">
+
+  <h2>Our Promise</h2>
+
+  <div class="values">
+
+  <div>
+    <img src="img/illustrations/illustration-richinmeats.svg" alt="illustration of fish and chicken meat"/>
+    <h4>Recipes rich in meats</h4>
+    <h3>
+      Cats thrive on quality protein. That’s why every Three Sisters Farm recipe starts with meat as the first ingredient.
+    </h3>
+  </div>
+
+  <div>
+    <img src="img/illustrations/illustration-ethicallysourced.svg" alt="illustration of hand about to grab a plant"/>
+    <h4>Ethically sourced</h4>
+    <h3>
+      We go to great lengths to source the world’s best ingredients. Our meats are sourced from family farms that are antibiotic and growth hormone free.
+    </h3>
+  </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- CTA -->
+<section class="cta">
+  <div class="ctacontainer">
+    <h2>Give your cats a taste of our flavors with a discounted 12-can variety pack.</h2>
+    <button>Buy a sampler case – $24</button>
+  </div>
+
+  <div class="ctaimage">
+  </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+<div class="footercontainer">
+  <div class="footerlinks">
+ <div>
+   <a href="">Shop</a>
+   <a href="">About Us</a>
+   <a href="">Contact</a>
+ </div>
+ <div>
+   <a href="">Instagram</a>
+   <a href="">Facebook</a>
+ </div>
+</div>
+ <div class="newsletter">
+   <h3>Sign up for updates</h3>
+   <form>
+     <input placeholder="Enter your email" />
+     <submit><button>Go</button></submit>
+   </form>
+ </div>
+</div>
+ <p class="copyright">
+   Copyright © 2020. All rights reserved. Designed and built by <a href="https://yvonnechien.com">Yvonne Chien</a>.
+ </p>
+</footer>
+
+
+<script src="header.js"></script>
+<script src="menu.js"></script>
+<script src="filter.js"></script>
+<script src="detailcard.js"></script>
+  </body>
+</html>
+
+
+<!-- <script src="appear.js"></script> -->
