@@ -18,6 +18,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 body {
+  margin: 0;
 	font-family: Fieldwork, Arial;
 	font-weight: 200;
 	font-size: 15px;
