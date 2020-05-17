@@ -3,11 +3,6 @@
   100% {transform: translate(0, 0); opacity: 1;}
 }
 
-@keyframes imagecovertranslate {
-	0% { opacity: 1;}
-	100% { opacity: 0; }
-}
-
 h1::selection, h2::selection, h3::selection, h4::selection, p::selection {
   background: rgba(188,228,233,1);
   opacity: 1;
@@ -18,7 +13,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 body {
-  margin: 20px;
+  margin: 0;
 	font-family: Fieldwork, Arial;
 	font-weight: 200;
 	font-size: 15px;
@@ -595,8 +590,14 @@ div.products {
  margin-left: 140px;
  display: flex;
  flex-wrap: wrap;
- width: 85%;
+ width: 80%;
+ justify-content: center;
 }
+
+div.products h2{
+  flex: 0 0 100%;
+}
+
 
 div.product-item {
 	margin: 0 20px 60px 20px;
