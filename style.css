@@ -13,6 +13,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 body {
+  width: 100%;
   margin: 0;
 	font-family: Fieldwork, Arial;
 	font-weight: 200;
@@ -24,6 +25,8 @@ body {
 	overflow-x:hidden;
   scroll-behavior: smooth;
 }
+
+
 
 h1 {
 	font-family: Fieldwork, Arial;
@@ -467,21 +470,25 @@ header div.cart h3 {
 
 @media only screen and (max-width: 600px) {
 
+  header {
+  	width: 100vw;
+  }
+
   header div.menu {
-  	padding-left: 40px;
+  	padding-left: 20px;
   }
 
   header div.cart {
-    padding-right: 40px;
+    padding-right: 20px;
   }
 
-  header div.menu h3, header div.menu h3 {
-    font-size: 18px;
+  header div.menu h3, header div.cart h3 {
+    display: none;
   }
 
   header div.menu img, header div.cart img {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
   }
 
 }
@@ -534,8 +541,8 @@ section div.herocontainer button {
 
 
     section div.herocontainer {
-    	width: 80%;
-      padding: 60px;
+    	width: 100%;
+      padding: 20px;
     }
 
     section div.herocontainer button {
@@ -743,11 +750,15 @@ hr {
   }
 
  hr {
-   margin-top: 20px;
+   margin-top: 0;
  }
 
  div.product-item.free-shipping {
    margin: 0 20px 0 20px;
+ }
+
+ div.free-shipping p{
+ 	width: 80%;
  }
 
 }
@@ -831,27 +842,37 @@ div.detail-bottomsection p {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   section.detail {
+    top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
+  }
+
+  img.detailcard-close {
+  	right: 0;
+  	top: 0;
+  	margin: 20px;
   }
 
   section.detail div.detail-topsection {
     display: flex;
-    margin: 100px 80px 60px 80px;
+    margin: 100px 60px 60px 60px;
     flex-direction:column;
     align-items: center;
   }
 
   div.detail-img {
     margin: 0;
+    width: 280px;
+    height: 380px;
+    margin: 0 0 0 0;
   }
 
   div.detail-img img{
-    width: 300px;
+    width: 260px;
     height: auto;
   }
 
@@ -860,24 +881,25 @@ div.detail-bottomsection p {
   }
 
   section.detail div.detail-bottomsection {
-    margin: 0 80px 120px 80px;
+    margin: 0 60px 120px 60px;
   }
 
-  img.detailcard-close {
-    z-index: 5;
-  	position: fixed;
-  	right: 0;
-  	top: 0;
-  	margin: 30px;
-    cursor: pointer;
-    transform: translate(0, 100vh);
-    transition: 0.7s transform;
-    height: 24px;
-    width: 24px;
-  }
 
 }
 
+@media only screen and (max-width: 600px) {
+
+
+
+  section.detail div.detail-topsection {
+    margin: 100px 20px 60px 20px;
+  }
+
+  section.detail div.detail-bottomsection {
+    margin: 0 20px 120px 20px;
+  }
+
+}
 
 
 
@@ -914,7 +936,7 @@ section.values div.values h3{
 
 @media only screen and (max-width: 600px) {
   section.values{
-  	margin: 100px 40px 40px 40px;
+  	margin: 100px 20px 40px 20px;
   }
 
   section.values div.values {
@@ -981,8 +1003,8 @@ section div.ctacontainer button {
   }
 
   section div.ctacontainer {
-  	width: 80%;
-  	padding: 60px;
+  	width: 100%;
+  	padding: 20px;
   }
 
   section div.ctacontainer button {
@@ -1070,7 +1092,7 @@ footer p.copyright {
 
   footer div.footerlinks {
   	flex-direction: row;
-  	width: 60%;
+  	width: 100%;
   }
 
   footer div.newsletter {
@@ -1078,9 +1100,27 @@ footer p.copyright {
   	align-self: auto;
   }
 
+  footer div.newsletter form {
+  	margin-top: 10px;
+    display: flex;
+  	flex-direction:row;
+  }
+
+  footer input {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  footer button {
+    font-size: 16px;
+  }
+
+
   footer p.copyright {
     margin-top: 60px;
-    padding: 0 60px;
+    padding: 0 20px;
   }
 
 }
