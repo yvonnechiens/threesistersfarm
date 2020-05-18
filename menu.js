@@ -38,6 +38,7 @@ menuButton.addEventListener("click", function(){
 const closeMenu = function(){
   navTag.classList.remove("open")
   aboutUsOpened.classList.remove("open")
+  contactOpened.classList.remove("open")
   bodyOpacity.style.visibility = "hidden"
   navTag.style.backgroundColor = "#FFF"
   aboutUsLink.style.transform = "translate(-50px,0)"
