@@ -149,8 +149,6 @@ const closeAboutUs = function(){
 
 if (aboutUsOpened.classList.contains("open")){
 
-  aboutUsLink.style.color = "red"
-
 } else {
   aboutUsLink.addEventListener("click", function(){
 
