@@ -768,6 +768,7 @@ hr {
 
 /* detail view */
 section.detail {
+  scroll-behavior: smooth;
   position: fixed;
   z-index: 4;
   bottom: 0;
