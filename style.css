@@ -661,6 +661,7 @@ div.quantity-picker {
 	color: #414042;
 	font-weight:300;
 	width: 140px;
+  height: 40px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -683,6 +684,7 @@ button.addtocart {
   letter-spacing: 0.04em;
   text-transform: lowercase;
 	width: 180px;
+  height: 40px;
 	transition: 0.3s all;
 }
 
