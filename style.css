@@ -538,7 +538,7 @@ section div.herocontainer button {
 
     section div.herocontainer {
     	width: 90%;
-      padding: 60px 20px;
+      padding: 40px 20px;
     }
 
     section div.herocontainer button {
@@ -730,19 +730,25 @@ hr {
   }
 
   div.filter {
-  	position: static;
-    width: 90%;
-    margin: 0 20px 20px 20px;
+    position: static;
+    width: 100%;
+    margin: 0 0 20px 0;
   }
 
   div.filter ul{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     align-content: center;
   }
 
+  div.filter li{
+    margin: 5px;
+    min-width: 80px;
+  }
+
   div.products {
-   margin: 40px;
+   margin: 20px;
   }
 
  hr {
