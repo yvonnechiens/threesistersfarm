@@ -672,6 +672,8 @@ div.quantity-picker h3 {
 	font-size: 16px;
   margin-block-start: 0;
   margin-block-end: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
 }
 
 button.addtocart {
