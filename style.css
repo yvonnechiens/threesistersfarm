@@ -918,7 +918,7 @@ div.detail-info h4 {
   color: #7C7C83;
 }
 
-div.detail-info div.product-item {
+div.detail-info div.product-item-detail {
   display:none;
 }
 
@@ -993,11 +993,21 @@ div.detail-bottomsection p {
     align-items: center;
   }
 
-  div.detail-info div.product-item {
+  div.detail-info div.product-item-detail {
     margin: 0 0 60px 0;
     display: flex;
     width: 335px;
     height: 380px;
+    margin: 0 20px 100px 20px;
+    width: 270px;
+    height: 370px;
+    border: 5px solid #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.7s 0.1s background-color;
+    border-radius: 5px;
   }
 
   div.detail-info div.product-item img{
