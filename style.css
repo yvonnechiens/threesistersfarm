@@ -972,16 +972,7 @@ div.detail-bottomsection p {
 
   div.detail-img {
     display: none;
-    /* margin: 0;
-    width: 280px;
-    height: 380px;
-    margin: 0 0 0 0; */
   }
-
-  /* div.detail-img img{
-    width: 260px;
-    height: auto;
-  } */
 
   div.detail-info .detail-action {
     display: none;
@@ -998,19 +989,13 @@ div.detail-bottomsection p {
     display: flex;
     width: 335px;
     height: 380px;
-    margin: 0 20px 100px 20px;
-    width: 270px;
-    height: 370px;
     border: 5px solid #f2f2f2;
     text-align: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
-    transition: 0.7s 0.1s background-color;
-    border-radius: 5px;
   }
 
-  div.detail-info div.product-item img{
+  div.detail-info div.product-item-detail img{
     width: 320px;
     height: auto;
   }
